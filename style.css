@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url("dark.jpg");
+  background-size: cover;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: silver;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 5px 10px yellow;
+  letter-spacing: 5px;
+}
+.padding h2 {
+  text-align: center;
+}
+.padding h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.navigasi {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigasi a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigasi a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.tengah {
+  float: left;
+  width: 75%;
+}
+
+.kanan {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.foto {
+  width: 50%;
+  background-color: silver;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 24%;
+}
+
+.text {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.tmptfoto {
+  margin-top: 20px;
+  opacity: 0.9;
+}
+.padding {
+  background-color: silver;
+  padding: 20px;
+  margin-top: 20px;
+}
+table, td, th {
+  border: 1px solid black;
+}
+td, th {
+  text-align: center;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+.isi:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: yellow;
+  margin-top: 20px;
+  color: black;
+}
+
+}
